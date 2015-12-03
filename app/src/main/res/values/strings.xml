@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Sangam</string>
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">Google Logo</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_time_sheet">TimeSheet</string>
+
+    <!-- Dashboard -->
+    <string name="time_sheet">TimeSheet</string>
+    <string name="leaves">Leaves</string>
+
+    <!-- Time Sheet -->
+    <string name="apply_leave">Apply Leave</string>
+    <string name="add_new_task">Add new task</string>
+    <string name="hours_worked">Hours worked : </string>
+    <string name="summary_of_the_day">Summary for the day: </string>
+    <string name="submit_button">Submit</string>
+     <string name="today_time_sheet">Today\'s Time sheet</string>
+    <string name="pending_time_sheet">Pending Time sheet</string>
+    <string name="title_activity_todays_time_sheet">TodaysTimeSheetActivity</string>
+
+    <!-- Add Task -->
+    <string name="type">Type :</string>
+    <string name="task">Task :</string>
+    <string name="location">Location :</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="task_comments">Task Comments :</string>
+    <string name="save_button">Save</string>
+
+    <!-- Bottom bar-->
+    
+
+    <string name="time_sheet_list">Time sheet List</string>
+
+
+
+
+    <string-array name="array_leavedetails">
+        <item>3/1/2015</item>
+        <item>13/2/2015</item>
+        <item>3/3/2015</item>
+        <item>16/4/2015</item>
+        <item>17/4/2015</item>
+        <item>6/5/2015</item>
+        <item>2/9/2015</item>
+        <item>23/9/2015</item>
+        <item>20/10/2015</item>
+        <item>21/10/2015</item>
+        <item>23/10/2015</item>
+
+    </string-array>
+    <string-array name="array_year">
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+
+    </string-array>
+    <string-array name="array_LeaveTypes">
+        <item>Casual</item>
+        <item>Sick</item>
+        <item>Paternity</item>
+        <item>Bereavement</item>
+    </string-array>
+
+    <string-array name="array_tasktype">
+    <item>Project</item>
+    <item>Training</item>
+    <item>Miscellaneous</item>
+</string-array>
+
+    <string-array name="array_task">
+        <item>Inovalon QSI XL</item>
+        <item>Android Sangam</item>
+        <item>Automation</item>
+    </string-array>
+
+    <string-array name="array_location">
+        <item>Jubilee Hills</item>
+        <item>Uppal</item>
+        <item>Hyderabad</item>
+        <item>USA</item>
+        <item>Waverock</item>
+    </string-array>
+
+    <string name="Check_multiple">Check to apply more than one day</string>
+    <string name="From_date">12/10/2015</string>
+    <string name="To_date">12/10/2015</string>
+    <string name="Leave_Type">Leave Type :</string>
+    <string name="title_activity_activity_dashboard">ActivityDashboard</string>
+    <string name="title_activity_activity_add_new_task">ActivityAddNewTask</string>
+    <string name="title_activity_activity_add_leave">ActivityAddLeave</string>
+    <string name="title_activity_activity_leave_details">ActivityLeaveDetails</string>
+
+
+
+</resources>
